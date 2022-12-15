@@ -26,9 +26,7 @@ import { FC } from "react";
 import { WanderingPet } from "react-wandering-pet";
 import catGif from "react-wandering-pet/dist/assets/cat.gif"; // You can also import the cat GIF itself if you'd like
 
-interface MyComponentProps {}
-
-const MyComponent: FC<MyComponentProps> = () => {
+const MyComponent = () => {
   return (
     <WanderingPet
       src="" // The same src of an img tag you can use whatever as a pet. Accepts GIF, JPEG, PNG and so on
