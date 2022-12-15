@@ -23,16 +23,13 @@ export const WanderingPet = ({
 }: Props) => {
   const [x, setX] = useState(startingOffset || -20);
   const maxX = window.innerWidth - (maxLimitOffset || 20);
-
   useEffect(() => {
     const interval = setInterval(() => {
       if (x > maxX) return setX(startingOffset || -20);
       setX(x + (movementOffset || 0.8));
     }, movementInterval || 50);
-
     return () => clearInterval(interval);
   }, [x]);
-
   return (
     <img
       className={className}
