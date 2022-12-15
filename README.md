@@ -4,7 +4,7 @@
 ![Alt Text](https://i.ibb.co/5G85TVG/ezgif-com-gif-maker.gif)
 
 
-`react-wandering-pet` is a "just for fun" package, made to give your website a hint of fun by having a gif of an animal wander around the screen in a none distracting way. Also who wouldn't want a cat to walk along the bottom of their screen? 👀 
+`react-wandering-pet` is a "just for fun" React component, made to give your website a hint of fun by having a gif of an animal wander around the screen in a none distracting way. Also who wouldn't want a cat to walk along the bottom of their screen? 👀 
 
 ## Installation
 
