@@ -27,7 +27,7 @@ import catGif from "react-wandering-pet/dist/assets/cat.gif"; // You can also im
 const MyComponent = () => {
   return (
     <WanderingPet
-      src="" // The same src of an img tag you can use whatever as a pet. Accepts GIF, JPEG, PNG and so on
+      src="" // Optional. Default is the orange cat GIF.
       height={48} // Default is 48px.
       width={} // Default is auto
       className=""
